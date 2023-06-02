@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--Vietnamese Language-->
+    <!--===============================================================================================================================================================-->
+    <string name="app_name">Trình đọc RSS</string>
+    <string name="versionName">1.0</string>
+    <string name="versionCode">1</string>
+
+    <!--===============================================================================================================================================================-->
+
+    <!--Main ACtivity-->
+    <string name="settings">Cài đặt</string>
+    <string name="home">Trang chủ</string>
+    <string name="favourite">Yêu thích</string>
+    <string name="SourceNew">Nguồn tin</string>
+    <string name="Offline">Ngoại tuyến</string>
+
+    <!--===============================================================================================================================================================-->
+
+    <!--Settings Activity-->
+    <string name="title_activity_settings">Cài đặt</string>
+    <string name="NightMode">Chế độ tối</string>
+    <string name="language_choose">Ngôn ngữ</string>
+    <string name="Version">Phiên bản</string>
+    <string name="AboutUs">Về chúng tôi</string>
+    <string name="version">Phiên bản 1.0</string>
+    <!--Change Language Settings-->
+    <string name="Choose_language">Chọn ngôn ngữ</string>
+    <string-array name="language_list">
+        <item>Theo hệ thống</item>
+        <item>English</item>
+        <item>Tiếng Việt</item>
+    </string-array>
+    <string name="Messeage_after_change_language">Lưu ý: Sau khi đổi ngôn ngữ, ứng dụng sẽ khởi động lại</string>
+
+    <!--===============================================================================================================================================================-->
+
+    <!--About Activity-->
+    <string name="TeamName">Tên Nhóm</string>
+    <string name="Team_name">NHÓM 7</string>
+    <string name="Member">Các thành viên</string>
+    <string name="Notes">Chú ý: Ứng dụng này dùng cho học tập</string>
+
+    <!--===============================================================================================================================================================-->
+
+    <!--Check Internet Connection Messeage-->
+    <string name="SuggestSetting">Kiểm tra Wifi hoặc Dữ liệu di động</string>
+    <string name="InternetError">Không có kết nối Internet</string>
+    <string name="Retry">Thử lại</string>
+    <string name="SuggestSetting2">Kéo xuống để làm mới trang</string>
+    <string name="InternetSuccess">Đã kết nối Internet</string>
+    <string name="InternetFail">Không kết nối với Internet</string>
+
+    <!--===============================================================================================================================================================-->
+
+    <!--HomePage Fragment-->
+    <string name="choose_rss">Chọn nguồn</string>
+    <string name="select_source_from_list">Chọn nguồn xem</string>
+    <string name="source_view_option">Nguồn xem</string>
+    <string name="Select_RSS_Fedd">Chọn RSS URL</string>
+    <string name="Select_Title_Query">Chọn chủ đề</string>
+
+    <!--Add RSS Bottom Sheet Dialog-->
+    <string name="content"><![CDATA[
+        Lưu ý:\n\n
+        1. Tại đây bạn có thể chọn nguồn đề feed\n
+        2. Mặc định ứng dụng sẽ feed các tin mới nhất từ VNExpress\n
+        3. Chọn chủ đề trước, ứng dụng sẽ hiện danh sách các RSS theo chủ đề bạn đã chọn\n
+        4. Nếu danh sách RSS không xuất hiện, hãy thêm tại thẻ nguồn tin và thử lại\n
+        5. Thêm một tin tức vào yêu thích, hãy chạm lâu vào nguồn tin,
+        danh sách lựa chọn sẽ xuất hiện và chọn "Thêm yêu thích"
+        ]]>
+    </string>
+
+    <!--Context Menu at Home Fragment-->
+    <string name="add_fav_opt">Thêm yêu thích</string>
+    <string name="del_fav_opt">Xoá yêu thích</string>
+    <string name="save_offline">Lưu ngoại tuyến</string>
+
+    <!--===============================================================================================================================================================-->
+    <!--Source News Fragments-->
+
+    <!--Float Button-->
+    <string name="option">Lựa chọn</string>
+    <string name="delete_all_data">Xoá sạch</string>
+    <string name="AddRSS">Thêm RSS</string>
+
+    <!--Add RSS Bottom Sheet Dialog-->
+    <string name="AddSource">Thêm nguồn</string>
+    <string name="content1"><![CDATA[
+        Tham khảo các nguồn RSS:\n\n
+        1. Báo VNExpress:\n https://vnexpress.net/rss\n
+        2. Thanh niên:\n https://thanhnien.vn/rss.html\n
+        3. Báo tuổi trẻ:\n https://tuoitre.vn/rss.htm\n
+        4. Báo tiên phong:\n https://tienphong.vn/rss.tpo\n
+        5. Báo 24h:\n http://us1.24h.com.vn/guest/RSS/\n
+        6. Tổng hợp các nguồn RSS từ trainghiemso.vn :\n
+        https://trainghiemso.vn/danh-sach-rss-feed/
+        ]]>
+    </string>
+    <string name="add_rss_db">Thêm</string>
+
+    <!--Update RSS Sheet Dialog-->
+    <string name="UpdateSource">Sửa nguồn</string>
+    <string name="updateBtn">Cập nhật</string>
+
+    <!--Database Messeage-->
+    <string name="add_rss_success">Thêm thành công</string>
+    <string name="add_rss_fail">Thêm thất bại</string>
+    <string name="missingInFormation">Nhập đầy đủ thông tin</string>
+    <string name="URLRequired">Nhập RSS URL</string>
+    <string name="NameRequired">Nhập tên cho URL</string>
+    <string name="no_dataRSS_detect">Không có dữ liệu RSS</string>
+    <string name="RSS_name">Tên</string>
+    <string name="confirm_title">Xác nhận</string>
+    <string name="question_confirm">Bạn chắc chắn muốn xoá?</string>
+    <string name="confirm_del_all">Bạn chắc chắn muốn xoá hết dữ liệu đang có?</string>
+    <string name="Delete_success">Đã xoá dữ liệu vừa chọn</string>
+    <string name="update_database_success">Cập nhật dữ liệu thành công</string>
+    <string name="clear_all_rss_succes">Đã xoá sạch danh sách RSS</string>
+    <string name="Note01">Không có dữ liệu RSS ở đây</string>
+    <string name="Note02">Nhấn phím \'Lựa chọn\' để thêm nguồn</string>
+    <string name="remove_forever">Xoá toàn bộ</string>
+    <string name="List_rss_title">Danh sách các nguồn RSS hiện tại</string>
+    <string name="messeage_delete2">Bạn sẽ phải khởi động lại ứng dụng nếu xoá hết danh sách</string>
+
+    <!--===============================================================================================================================================================-->
+
+    <!--Material Dialog Button-->
+    <string name="yes_btn">Có</string>
+    <string name="dont_del_me">Không</string>
+
+    <!--===============================================================================================================================================================-->
+
+    <!--WebView TopBar-->
+    <string name="share">Chia sẻ</string>
+    <string name="Open_Browser">Mở trình duyệt</string>
+    <string name="print">In</string>
+
+    <!--===============================================================================================================================================================-->
+
+    <!--Share Function-->
+    <string name="mainBody">Chia sẻ tin tức</string>
+    <string name="ShareTitle">\"Chia sẻ bằng: \"</string>
+    <string name="ShareErrorMsg">Xin lỗi không thể chia sẻ được</string>
+
+    <!--===============================================================================================================================================================-->
+
+    <!--Global Database Messeage-->
+    <string name="No_database">Không có dữ liệu tồn tại</string>
+    <string name="data_available">Đã tồn tại bản ghi</string>
+    <string name="favourite_add_success">Thêm vào mục yêu thích</string>
+    <string name="del_favourite_success">Đã xóa yêu thích này</string>
+    <string name="Data_notavailable">Không tồn tại yêu thích này</string>
+    <string name="delete_all_fav_success">Đã xóa sạch danh sách yêu thích</string>
+
+    <!--===============================================================================================================================================================-->
+    <!--Delete Favourite Alert Dialogs-->
+    <string name="Delete_favourite">Xoá mục yêu thích này?</string>
+
+    <!--===============================================================================================================================================================-->
+
+    <!--No Favourite Record Available Messeage-->
+    <string name="FavouriteNote01">Không có yêu thích nào ở đây</string>
+    <string name="FavouriteNote02">Quay lại trang chủ để thêm yêu thích</string>
+
+    <!--===============================================================================================================================================================-->
+
+    <!--Offline Function Information to user-->
+    <string name="info1_offline">Về chức năng lưu ngoại tuyến:</string>
+    <string name="offline_save_title">Thông tin tới bạn</string>
+    <string name="info2_offline">1. Bạn cần phải vào tin tức cần lưu</string>
+    <string name="info3_offline">2. Chức năng lưu này sử dụng định dạng PDF nhưng chức năng lưu bạn cần phải chọn đúng đường dẫn:</string>
+    <string name="offline_path">Bộ nhớ trong/Download/RSS</string>
+    <string name="info4_offline">3. Chúng tôi không thể giúp bạn lưu tự động theo đường dẫn trên do chính sách bảo mật của Google</string>
+    <string name="info5_offline">4. Nếu ứng dụng bị xóa, các bản lưu ngoại tuyến sẽ vẫn còn trong bộ nhớ của bạn</string>
+
+    <!--===============================================================================================================================================================-->
+
+    <!--Android 11+ Request Permission Messeage-->
+    <string name="request_info1">Xin chào người dùng Android 11+</string>
+    <string name="request_info2">Do chính sách bảo mật Android 11 trở lên, tính năng lưu ngoại tuyến không thể đọc nội dung bộ nhớ trong được nữa</string>
+    <string name="request_info3">Chúng tôi cần quyền truy cập quản lý tất cả nội dung với mục đích hiện thị các nội dung ngoại tuyến bạn đã lưu</string>
+    <string name="request_info4">Không có dữ liệu nào sẽ bị sử dụng cho mục đích khác cả.</string>
+    <string name="request_info5">Nhấn phím \'Trao quyền\' để đi tới cài đặt quyền cho ứng dụng</string>
+    <string name="request_info6">Bạn nên khởi động lại ứng dụng sau khi cho phép quyền yêu cầu</string>
+    <string name="RequestBtnText">Trao quyền</string>
+
+    <!--Information about the content offline saved-->
+    <string name="Notify_offline_information">Thông tin cần biết</string>
+    <string name="question1">1. Tất cả các bản lưu này lưu trữ ở đâu</string>
+    <string name="question2">2. Tôi đã lưu theo đúng đường dẫn nhưng không hiện ở đây?</string>
+    <string name="anwser2">Kiểm tra lại xem bản ghi có ở trong đúng đường dẫn không trong ứng dụng Quản lý tập tin.
+    Nếu có hãy thử làm mới trang hoặc khởi động lại ứng dụng. Xin lỗi bạn vì trải nghiệm này</string>
+    <string name="question3">3. Tôi có thể lưu ở đường dẫn khác được không? </string>
+    <string name="answer3"> Đó hoàn toàn là quyền của bạn, mục ngoại tuyến này chỉ hiện thị các bản ghi tại đường dẫn trên.
+    Để mở các bản ghi bạn cần các trình đọc PDF như Office App,
+    Adobe Reader hoặc trình đọc PDF mặc định của Google Drive trên thiết bị của bạn</string>
+
+    <!--===============================================================================================================================================================-->
+
+    <!--Access Denied From User-->
+    <string name="permission_denied_by_user">Truy cập bị từ chối, truy cập cài đặt của thiết bị để cấp quyền</string>
+
+    <!--===============================================================================================================================================================-->
+
+    <!--Exit Application From User-->
+    <string name="ExitTitle">Thoát ứng dụng</string>
+    <string name="Confirm_exit">Bạn chắc chắn muốn thoát?</string>
+
+    <!--===============================================================================================================================================================-->
+
+    <!--Spinner Title-->
+    <string-array name="title_list">
+        <item>Tin tức mới</item>
+        <item>Thế giới</item>
+        <item>Thời sự</item>
+        <item>Thể thao</item>
+        <item>Pháp luật</item>
+        <item>Giáo dục</item>
+        <item>Sức khoẻ</item>
+        <item>Đời sống</item>
+        <item>Du lịch</item>
+        <item>Khoa học</item>
+        <item>Khác</item>
+    </string-array>
+
+    <!--===============================================================================================================================================================-->
+</resources>

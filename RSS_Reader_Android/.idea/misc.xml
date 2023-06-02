@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Android/Nhom7/RSS_Reader_Android/app/src/main/res/layout/about_activity.xml" value="0.17603850050658562" />
+        <entry key="..\:/Users/ngoth/AndroidStudioProjects/newsapp/app/src/main/res/drawable/ic_baseline_folder_24.xml" value="0.226" />
+        <entry key="..\:/Users/ngoth/AndroidStudioProjects/newsapp/app/src/main/res/drawable/ic_baseline_newspaper_24.xml" value="0.226" />
+        <entry key="..\:/Users/ngoth/AndroidStudioProjects/newsapp/app/src/main/res/drawable/ic_baseline_offline_24.xml" value="0.226" />
+        <entry key="..\:/Users/ngoth/AndroidStudioProjects/newsapp/app/src/main/res/drawable/ic_baseline_print_24.xml" value="0.226" />
+        <entry key="..\:/Users/ngoth/AndroidStudioProjects/newsapp/app/src/main/res/drawable/ic_baseline_star_yellow_24.xml" value="0.226" />
+        <entry key="..\:/Users/ngoth/AndroidStudioProjects/newsapp/app/src/main/res/layout/activity_file_list.xml" value="0.22736486486486487" />
+        <entry key="..\:/Users/ngoth/AndroidStudioProjects/newsapp/app/src/main/res/layout/activity_main.xml" value="0.23006756756756758" />
+        <entry key="..\:/Users/ngoth/AndroidStudioProjects/newsapp/app/src/main/res/layout/add_rss.xml" value="0.23006756756756758" />
+        <entry key="..\:/Users/ngoth/AndroidStudioProjects/newsapp/app/src/main/res/layout/choose_rss.xml" value="0.23006756756756758" />
+        <entry key="..\:/Users/ngoth/AndroidStudioProjects/newsapp/app/src/main/res/layout/fragment_favourite.xml" value="0.23006756756756758" />
+        <entry key="..\:/Users/ngoth/AndroidStudioProjects/newsapp/app/src/main/res/layout/fragment_home.xml" value="0.23006756756756758" />
+        <entry key="..\:/Users/ngoth/AndroidStudioProjects/newsapp/app/src/main/res/layout/fragment_news.xml" value="0.23006756756756758" />
+        <entry key="..\:/Users/ngoth/AndroidStudioProjects/newsapp/app/src/main/res/layout/fragment_offline.xml" value="0.22736486486486487" />
+        <entry key="..\:/Users/ngoth/AndroidStudioProjects/newsapp/app/src/main/res/layout/headline_list_view.xml" value="0.23006756756756758" />
+        <entry key="..\:/Users/ngoth/AndroidStudioProjects/newsapp/app/src/main/res/layout/new_items.xml" value="0.23006756756756758" />
+        <entry key="..\:/Users/ngoth/AndroidStudioProjects/newsapp/app/src/main/res/layout/offline_items.xml" value="0.22736486486486487" />
+        <entry key="..\:/Users/ngoth/AndroidStudioProjects/newsapp/app/src/main/res/layout/rss_items.xml" value="0.23006756756756758" />
+        <entry key="..\:/Users/ngoth/AndroidStudioProjects/newsapp/app/src/main/res/layout/sourcenews.xml" value="0.22" />
+        <entry key="..\:/Users/ngoth/AndroidStudioProjects/newsapp/app/src/main/res/menu/bottom_navview.xml" value="0.22736486486486487" />
+        <entry key="..\:/Users/ngoth/AndroidStudioProjects/newsapp/app/src/main/res/menu/topbar.xml" value="0.23006756756756758" />
+        <entry key="..\:/Users/ngoth/AndroidStudioProjects/newsapp/app/src/main/res/menu/topbar_webview.xml" value="0.22736486486486487" />
+        <entry key="..\:/Users/ngoth/OneDrive - dada/Documents/Android_source_project/newsapp/app/src/main/res/drawable-night/ic_more.xml" value="0.2125" />
+        <entry key="..\:/Users/ngoth/OneDrive - dada/Documents/Android_source_project/newsapp/app/src/main/res/drawable-night/round_color.xml" value="0.226" />
+        <entry key="..\:/Users/ngoth/OneDrive - dada/Documents/Android_source_project/newsapp/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.2125" />
+        <entry key="..\:/Users/ngoth/OneDrive - dada/Documents/Android_source_project/newsapp/app/src/main/res/drawable/bottom_shadow.xml" value="0.2985" />
+        <entry key="..\:/Users/ngoth/OneDrive - dada/Documents/Android_source_project/newsapp/app/src/main/res/drawable/box_border.xml" value="0.226" />
+        <entry key="..\:/Users/ngoth/OneDrive - dada/Documents/Android_source_project/newsapp/app/src/main/res/drawable/ic_baseline_add_24.xml" value="0.2225" />
+        <entry key="..\:/Users/ngoth/OneDrive - dada/Documents/Android_source_project/newsapp/app/src/main/res/drawable/ic_baseline_arrow_back_24.xml" value="0.2125" />
+        <entry key="..\:/Users/ngoth/OneDrive - dada/Documents/Android_source_project/newsapp/app/src/main/res/drawable/ic_baseline_bedtime_24.xml" value="0.2225" />
+        <entry key="..\:/Users/ngoth/OneDrive - dada/Documents/Android_source_project/newsapp/app/src/main/res/drawable/ic_baseline_favorite_24.xml" value="0.2985" />
+        <entry key="..\:/Users/ngoth/OneDrive - dada/Documents/Android_source_project/newsapp/app/src/main/res/drawable/ic_baseline_format_size_24.xml" value="0.2225" />
+        <entry key="..\:/Users/ngoth/OneDrive - dada/Documents/Android_source_project/newsapp/app/src/main/res/drawable/ic_baseline_home_24.xml" value="0.2985" />
+        <entry key="..\:/Users/ngoth/OneDrive - dada/Documents/Android_source_project/newsapp/app/src/main/res/drawable/ic_baseline_info_24.xml" value="0.2225" />
+        <entry key="..\:/Users/ngoth/OneDrive - dada/Documents/Android_source_project/newsapp/app/src/main/res/drawable/ic_baseline_keyboard_arrow_left_24.xml" value="0.226" />
+        <entry key="..\:/Users/ngoth/OneDrive - dada/Documents/Android_source_project/newsapp/app/src/main/res/drawable/ic_baseline_keyboard_arrow_right_24.xml" value="0.226" />
+        <entry key="..\:/Users/ngoth/OneDrive - dada/Documents/Android_source_project/newsapp/app/src/main/res/drawable/ic_baseline_local_library_24.xml" value="0.2985" />
+        <entry key="..\:/Users/ngoth/OneDrive - dada/Documents/Android_source_project/newsapp/app/src/main/res/drawable/ic_baseline_person_24.xml" value="0.2225" />
+        <entry key="..\:/Users/ngoth/OneDrive - dada/Documents/Android_source_project/newsapp/app/src/main/res/drawable/ic_baseline_search_24.xml" value="0.2225" />
+        <entry key="..\:/Users/ngoth/OneDrive - dada/Documents/Android_source_project/newsapp/app/src/main/res/drawable/ic_baseline_settings_24.xml" value="0.2985" />
+        <entry key="..\:/Users/ngoth/OneDrive - dada/Documents/Android_source_project/newsapp/app/src/main/res/drawable/ic_baseline_source_24.xml" value="0.2225" />
+        <entry key="..\:/Users/ngoth/OneDrive - dada/Documents/Android_source_project/newsapp/app/src/main/res/drawable/ic_baseline_toc_24.xml" value="0.2125" />
+        <entry key="..\:/Users/ngoth/OneDrive - dada/Documents/Android_source_project/newsapp/app/src/main/res/drawable/ic_dark_mode.xml" value="0.2125" />
+        <entry key="..\:/Users/ngoth/OneDrive - dada/Documents/Android_source_project/newsapp/app/src/main/res/drawable/ic_date.xml" value="0.2125" />
+        <entry key="..\:/Users/ngoth/OneDrive - dada/Documents/Android_source_project/newsapp/app/src/main/res/drawable/ic_edit_profile.xml" value="0.2125" />
+        <entry key="..\:/Users/ngoth/OneDrive - dada/Documents/Android_source_project/newsapp/app/src/main/res/drawable/ic_languages.xml" value="0.2125" />
+        <entry key="..\:/Users/ngoth/OneDrive - dada/Documents/Android_source_project/newsapp/app/src/main/res/drawable/ic_launcher_background.xml" value="0.2985" />
+        <entry key="..\:/Users/ngoth/OneDrive - dada/Documents/Android_source_project/newsapp/app/src/main/res/drawable/ic_more.xml" value="0.2125" />
+        <entry key="..\:/Users/ngoth/OneDrive - dada/Documents/Android_source_project/newsapp/app/src/main/res/drawable/ic_search.xml" value="0.2125" />
+        <entry key="..\:/Users/ngoth/OneDrive - dada/Documents/Android_source_project/newsapp/app/src/main/res/drawable/ic_share.xml" value="0.2225" />
+        <entry key="..\:/Users/ngoth/OneDrive - dada/Documents/Android_source_project/newsapp/app/src/main/res/drawable/navigation_view_colored.xml" value="0.2125" />
+        <entry key="..\:/Users/ngoth/OneDrive - dada/Documents/Android_source_project/newsapp/app/src/main/res/drawable/not_available.xml" value="0.2985" />
+        <entry key="..\:/Users/ngoth/OneDrive - dada/Documents/Android_source_project/newsapp/app/src/main/res/drawable/round_color.xml" value="0.226" />
+        <entry key="..\:/Users/ngoth/OneDrive - dada/Documents/Android_source_project/newsapp/app/src/main/res/drawable/round_white.xml" value="0.2125" />
+        <entry key="..\:/Users/ngoth/OneDrive - dada/Documents/Android_source_project/newsapp/app/src/main/res/drawable/top_shadow.xml" value="0.2125" />
+        <entry key="..\:/Users/ngoth/OneDrive - dada/Documents/Android_source_project/newsapp/app/src/main/res/layout-land/sctivity_main.xml" value="0.18" />
+        <entry key="..\:/Users/ngoth/OneDrive - dada/Documents/Android_source_project/newsapp/app/src/main/res/layout/about_activity.xml" value="0.25" />
+        <entry key="..\:/Users/ngoth/OneDrive - dada/Documents/Android_source_project/newsapp/app/src/main/res/layout/activity_error.xml" value="0.1712962962962963" />
+        <entry key="..\:/Users/ngoth/OneDrive - dada/Documents/Android_source_project/newsapp/app/src/main/res/layout/activity_main.xml" value="0.18" />
+        <entry key="..\:/Users/ngoth/OneDrive - dada/Documents/Android_source_project/newsapp/app/src/main/res/layout/activity_newsdetail.xml" value="0.25" />
+        <entry key="..\:/Users/ngoth/OneDrive - dada/Documents/Android_source_project/newsapp/app/src/main/res/layout/add_rss.xml" value="0.25" />
+        <entry key="..\:/Users/ngoth/OneDrive - dada/Documents/Android_source_project/newsapp/app/src/main/res/layout/content_main.xml" value="0.23006756756756758" />
+        <entry key="..\:/Users/ngoth/OneDrive - dada/Documents/Android_source_project/newsapp/app/src/main/res/layout/custom_title.xml" value="0.32222222222222224" />
+        <entry key="..\:/Users/ngoth/OneDrive - dada/Documents/Android_source_project/newsapp/app/src/main/res/layout/error.xml" value="0.33" />
+        <entry key="..\:/Users/ngoth/OneDrive - dada/Documents/Android_source_project/newsapp/app/src/main/res/layout/fragment_favourite.xml" value="0.2975630611372381" />
+        <entry key="..\:/Users/ngoth/OneDrive - dada/Documents/Android_source_project/newsapp/app/src/main/res/layout/fragment_home.xml" value="0.22" />
+        <entry key="..\:/Users/ngoth/OneDrive - dada/Documents/Android_source_project/newsapp/app/src/main/res/layout/fragment_news.xml" value="0.23513513513513515" />
+        <entry key="..\:/Users/ngoth/OneDrive - dada/Documents/Android_source_project/newsapp/app/src/main/res/layout/fragment_offline.xml" value="0.2975630611372381" />
+        <entry key="..\:/Users/ngoth/OneDrive - dada/Documents/Android_source_project/newsapp/app/src/main/res/layout/fragment_search.xml" value="0.32222222222222224" />
+        <entry key="..\:/Users/ngoth/OneDrive - dada/Documents/Android_source_project/newsapp/app/src/main/res/layout/fragment_settings.xml" value="0.2975630611372381" />
+        <entry key="..\:/Users/ngoth/OneDrive - dada/Documents/Android_source_project/newsapp/app/src/main/res/layout/fragment_test.xml" value="0.2509057971014493" />
+        <entry key="..\:/Users/ngoth/OneDrive - dada/Documents/Android_source_project/newsapp/app/src/main/res/layout/headline_list_view.xml" value="0.33967391304347827" />
+        <entry key="..\:/Users/ngoth/OneDrive - dada/Documents/Android_source_project/newsapp/app/src/main/res/layout/new_items.xml" value="0.25" />
+        <entry key="..\:/Users/ngoth/OneDrive - dada/Documents/Android_source_project/newsapp/app/src/main/res/layout/rss_items.xml" value="0.25" />
+        <entry key="..\:/Users/ngoth/OneDrive - dada/Documents/Android_source_project/newsapp/app/src/main/res/layout/settings_activity.xml" value="0.25" />
+        <entry key="..\:/Users/ngoth/OneDrive - dada/Documents/Android_source_project/newsapp/app/src/main/res/layout/settings_title.xml" value="0.32222222222222224" />
+        <entry key="..\:/Users/ngoth/OneDrive - dada/Documents/Android_source_project/newsapp/app/src/main/res/layout/settings_toolbar.xml" value="0.32222222222222224" />
+        <entry key="..\:/Users/ngoth/OneDrive - dada/Documents/Android_source_project/newsapp/app/src/main/res/layout/sourcenew.xml" value="0.23513513513513515" />
+        <entry key="..\:/Users/ngoth/OneDrive - dada/Documents/Android_source_project/newsapp/app/src/main/res/layout/sourcenews.xml" value="0.22" />
+        <entry key="..\:/Users/ngoth/OneDrive - dada/Documents/Android_source_project/newsapp/app/src/main/res/menu/bottom_navview.xml" value="0.32222222222222224" />
+        <entry key="..\:/Users/ngoth/OneDrive - dada/Documents/Android_source_project/newsapp/app/src/main/res/menu/top_app_bar.xml" value="0.23006756756756758" />
+        <entry key="..\:/Users/ngoth/OneDrive - dada/Documents/Android_source_project/newsapp/app/src/main/res/menu/topbar.xml" value="0.23006756756756758" />
+        <entry key="..\:/Users/ngoth/OneDrive - dada/Documents/Android_source_project/newsapp/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.2225" />
+        <entry key="..\:/Users/ngoth/OneDrive - dada/Documents/Android_source_project/newsapp/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.2005" />
+        <entry key="..\:/Users/ngoth/OneDrive - dada/Documents/Android_source_project/newsapp/app/src/main/res/xml/root_preferences.xml" value="0.32222222222222224" />
+        <entry key="..\:/Users/ngoth/OneDrive - dada/Documents/Android_source_project/newsapp/app/src/main/res/xml/setting_screen.xml" value="0.25" />
+        <entry key="app/src/main/res/drawable/ic_baseline_edit_note_24.xml" value="0.2505" />
+        <entry key="app/src/main/res/drawable/ic_baseline_favorite_24.xml" value="0.2505" />
+        <entry key="app/src/main/res/drawable/ic_baseline_grid_view_24.xml" value="0.2505" />
+        <entry key="app/src/main/res/drawable/ic_baseline_insert_drive_file_24.xml" value="0.2505" />
+        <entry key="app/src/main/res/layout/Android11_offline.xml" value="0.3453125" />
+        <entry key="app/src/main/res/layout/about_activity.xml" value="0.3453125" />
+        <entry key="app/src/main/res/layout/activity_main.xml" value="0.3453125" />
+        <entry key="app/src/main/res/layout/activity_newsdetail.xml" value="0.1703125" />
+        <entry key="app/src/main/res/layout/add_rss.xml" value="0.3453125" />
+        <entry key="app/src/main/res/layout/android11_offline.xml" value="0.3453125" />
+        <entry key="app/src/main/res/layout/choose_rss.xml" value="0.33" />
+        <entry key="app/src/main/res/layout/fragment_favourite.xml" value="0.3453125" />
+        <entry key="app/src/main/res/layout/fragment_home.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/fragment_offline.xml" value="0.33" />
+        <entry key="app/src/main/res/layout/list_items.xml" value="0.3453125" />
+        <entry key="app/src/main/res/layout/offline_items.xml" value="0.3453125" />
+        <entry key="app/src/main/res/layout/settings_activity.xml" value="0.3453125" />
+        <entry key="app/src/main/res/layout/sourcenews.xml" value="0.3453125" />
+        <entry key="app/src/main/res/menu/bottom_navview.xml" value="0.3453125" />
+        <entry key="app/src/main/res/menu/menu_news_feed.xml" value="0.3453125" />
+        <entry key="app/src/main/res/menu/top_app_bar.xml" value="0.3453125" />
+        <entry key="app/src/main/res/menu/topbar_webview.xml" value="0.3453125" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+  <component name="VisualizationToolProject">
+    <option name="state">
+      <ProjectState>
+        <option name="scale" value="0.23513513513513515" />
+      </ProjectState>
+    </option>
+  </component>
+</project>

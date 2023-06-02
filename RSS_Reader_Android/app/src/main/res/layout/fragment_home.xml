@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.swiperefreshlayout.widget.SwipeRefreshLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/refreshLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".activity.MainActivity">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/HomeView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/recycleview"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:listitem="@layout/new_items" />
+
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:id="@+id/extendedBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="30dp"
+            android:layout_marginBottom="20dp"
+            android:contentDescription="@string/source_view_option"
+            android:src="@drawable/ic_baseline_grid_view_24"
+            android:textSize="15sp"
+            app:layout_behavior="com.google.android.material.behavior.HideBottomViewOnScrollBehavior"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent" />
+
+        <!--    Error Messeage when no internet connection-->
+        <ImageView
+            android:id="@+id/errorImage"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginTop="208dp"
+            android:contentDescription="@string/InternetError"
+            android:src="@drawable/no_internet"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.498"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:ignore="ImageContrastCheck" />
+        <TextView
+            android:id="@+id/ErrorMesseage"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="@string/InternetError"
+            android:textSize="24sp"
+            app:layout_constraintEnd_toEndOf="@+id/errorImage"
+            app:layout_constraintStart_toStartOf="@+id/errorImage"
+            app:layout_constraintTop_toBottomOf="@+id/errorImage" />
+        <TextView
+            android:id="@+id/RequestText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:text="@string/SuggestSetting"
+            android:textAlignment="center"
+            android:textSize="18sp"
+            app:layout_constraintEnd_toEndOf="@+id/ErrorMesseage"
+            app:layout_constraintStart_toStartOf="@+id/ErrorMesseage"
+            app:layout_constraintTop_toBottomOf="@+id/ErrorMesseage" />
+        <Button
+            android:id="@+id/RetryButton"
+            style="@style/Widget.Material3.Button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:text="@string/Retry"
+            android:textAlignment="center"
+            android:textSize="20sp"
+            app:icon="@drawable/ic_baseline_refresh_24"
+            app:iconPadding="5dp"
+            app:layout_constraintEnd_toEndOf="@+id/RequestText"
+            app:layout_constraintStart_toStartOf="@+id/RequestText"
+            app:layout_constraintTop_toBottomOf="@+id/RequestText" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</androidx.swiperefreshlayout.widget.SwipeRefreshLayout>

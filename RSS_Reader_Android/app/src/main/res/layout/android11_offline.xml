@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.swiperefreshlayout.widget.SwipeRefreshLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/offlineAndroid11"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragment.OfflineFragment">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/recycler_view11"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.0" />
+
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:id="@+id/InfoButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="30dp"
+            android:layout_marginBottom="20dp"
+            android:clickable="true"
+            android:src="@drawable/ic_baseline_info_24"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            tools:ignore="ContentDescription,SpeakableTextPresentCheck"
+            android:focusable="true" />
+
+        <ImageView
+            android:id="@+id/imageAndroid"
+            android:layout_width="169dp"
+            android:layout_height="134dp"
+            app:layout_constraintBottom_toTopOf="@+id/requesttext1"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.917"
+            app:srcCompat="@drawable/_200px_android_11_developer_preview_logo_svg" />
+
+        <TextView
+            android:id="@+id/requesttext1"
+            android:layout_width="360dp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:text="@string/request_info1"
+            android:textAlignment="center"
+            android:textSize="22sp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toTopOf="@+id/requesttext2"
+            app:layout_constraintEnd_toEndOf="@+id/imageAndroid"
+            app:layout_constraintStart_toStartOf="@+id/imageAndroid" />
+
+        <TextView
+            android:id="@+id/requesttext2"
+            android:layout_width="360dp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:text="@string/request_info2"
+            android:textAlignment="center"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toTopOf="@+id/requesttext3"
+            app:layout_constraintEnd_toEndOf="@+id/requesttext1"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toStartOf="@+id/requesttext1" />
+
+        <TextView
+            android:id="@+id/requesttext3"
+            android:layout_width="360dp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:text="@string/request_info3"
+            android:textAlignment="center"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toTopOf="@+id/requesttext4"
+            app:layout_constraintEnd_toEndOf="@+id/requesttext2"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toStartOf="@+id/requesttext2" />
+
+        <TextView
+            android:id="@+id/requesttext4"
+            android:layout_width="360dp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:text="@string/request_info4"
+            android:textAlignment="center"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toTopOf="@+id/requesttext5"
+            app:layout_constraintEnd_toEndOf="@+id/requesttext3"
+            app:layout_constraintStart_toStartOf="@+id/requesttext3" />
+
+        <TextView
+            android:id="@+id/requesttext5"
+            android:layout_width="360dp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:text="@string/request_info5"
+            android:textAlignment="center"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toTopOf="@+id/requestbtn"
+            app:layout_constraintEnd_toEndOf="@+id/requesttext4"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toStartOf="@+id/requesttext4" />
+
+        <Button
+            android:id="@+id/requestbtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="168dp"
+            android:text="@string/RequestBtnText"
+            android:textAlignment="center"
+            android:textSize="18sp"
+            app:layout_constraintBottom_toBottomOf="@+id/recycler_view11"
+            app:layout_constraintEnd_toEndOf="@+id/requesttext5"
+            app:layout_constraintHorizontal_bias="0.495"
+            app:layout_constraintStart_toStartOf="@+id/requesttext5" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</androidx.swiperefreshlayout.widget.SwipeRefreshLayout>

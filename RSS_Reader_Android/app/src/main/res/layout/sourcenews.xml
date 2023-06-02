@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/rss_view"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:tag="RSS_View"
+    tools:context=".fragment.FavouriteFragment">
+
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/RSSSource"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="20dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:listitem="@layout/rss_items" />
+
+    <com.google.android.material.floatingactionbutton.ExtendedFloatingActionButton
+        android:id="@+id/rssbtnopt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="30dp"
+        android:layout_marginBottom="20dp"
+        android:clickable="true"
+        android:contentDescription="@string/AddRSS"
+        android:focusable="true"
+        android:text="@string/option"
+        android:textSize="15sp"
+        app:icon="@drawable/ic_baseline_edit_note_24"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <com.google.android.material.floatingactionbutton.ExtendedFloatingActionButton
+        android:id="@+id/addrss"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:clickable="true"
+        android:focusable="true"
+        android:text="@string/AddRSS"
+        android:textSize="15sp"
+        app:icon="@drawable/ic_baseline_add_24"
+        app:layout_constraintBottom_toTopOf="@+id/rssbtnopt"
+        app:layout_constraintEnd_toEndOf="@+id/rssbtnopt"
+        app:layout_constraintStart_toStartOf="@+id/rssbtnopt" />
+
+    <com.google.android.material.floatingactionbutton.ExtendedFloatingActionButton
+        android:id="@+id/rssbtndelete"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:clickable="true"
+        android:contentDescription="@string/AddRSS"
+        android:focusable="true"
+        android:text="@string/delete_all_data"
+        android:textSize="15sp"
+        app:icon="@drawable/ic_baseline_delete_forever_24"
+        app:layout_constraintBottom_toTopOf="@+id/addrss"
+        app:layout_constraintEnd_toEndOf="@+id/addrss"
+        app:layout_constraintStart_toStartOf="@+id/addrss" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="244dp"
+        android:contentDescription="@string/no_dataRSS_detect"
+        android:src="@drawable/icons8_empty_box_100"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/Note01"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/Note01"
+        android:textAlignment="center"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView2" />
+
+    <TextView
+        android:id="@+id/Note02"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/Note02"
+        android:textAlignment="center"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Note01"
+        app:layout_constraintVertical_bias="0.047" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

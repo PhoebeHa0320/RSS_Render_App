@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/addfavbtn"
+        android:title="@string/add_fav_opt"
+        android:icon="@drawable/ic_baseline_star_yellow_24"
+        android:orderInCategory="100"
+
+        />
+    <item
+        android:id="@+id/delfavbtn"
+        android:icon="@drawable/ic_baseline_star_outline_24"
+        android:title="@string/del_fav_opt"
+        android:orderInCategory="100"
+
+         />
+    <item
+        android:id="@+id/offlinebtn"
+        android:icon="@drawable/ic_baseline_offline_24"
+        android:title="@string/save_offline"
+        android:orderInCategory="100"
+
+         />
+</menu>

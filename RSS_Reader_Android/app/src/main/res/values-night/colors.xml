@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="grey">#808080</color>
+
+<!--    Settings Color-->
+    <color name="contentBodyColor">#000</color>
+    <color name="contentTextColor">#fff</color>
+    <color name="miniTitle">#fff</color>
+</resources>

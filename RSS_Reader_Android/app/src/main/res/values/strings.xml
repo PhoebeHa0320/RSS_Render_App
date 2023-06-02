@@ -1,0 +1,227 @@
+<resources>
+    <!--English Language-->
+    <!--===============================================================================================================================================================-->
+    <string name="app_name">RSS Reader</string>
+    <string name="versionName">1.0</string>
+    <string name="versionCode">1</string>
+
+    <!--===============================================================================================================================================================-->
+
+    <!--Main ACtivity-->
+    <string name="settings">Settings</string>
+    <string name="home">HomePage</string>
+    <string name="favourite">Favourite</string>
+    <string name="SourceNew">Source</string>
+    <string name="Offline">Offline</string>
+
+    <!--===============================================================================================================================================================-->
+
+    <!--Settings Activity-->
+    <string name="title_activity_settings">Settings</string>
+    <string name="NightMode">Dark Mode</string>
+    <string name="language_choose">Language</string>
+    <string name="Version">Version</string>
+    <string name="AboutUs">About Us</string>
+    <string name="version">Version 1.0</string>
+    <!--Change Language Settings-->
+    <string name="Choose_language">Choose language</string>
+    <string-array name="language_list">
+        <item>Following System</item>
+        <item>English</item>
+        <item>Tiếng Việt</item>
+    </string-array>
+    <string name="Messeage_after_change_language"> Note: After change language, application will restart</string>
+
+    <!--===============================================================================================================================================================-->
+
+    <!--About Activity-->
+    <string name="TeamName">Team Name</string>
+    <string name="Team_name">TEAM 7</string>
+    <string name="Member">Member of Team</string>
+    <string name="Notes">Note: This software is for learning purposes only </string>
+
+    <!--===============================================================================================================================================================-->
+
+    <!--Check Internet Connection Messeage-->
+    <string name="SuggestSetting">Check your Wifi or Mobile Data connection</string>
+    <string name="InternetError">No Internet Connection</string>
+    <string name="Retry">Try Again</string>
+    <string name="SuggestSetting2">Swipe to refresh this page</string>
+    <string name="InternetSuccess">Internet Access</string>
+    <string name="InternetFail">No Internet Connection</string>
+
+    <!--===============================================================================================================================================================-->
+
+    <!--HomePage Fragment-->
+    <string name="select_source_from_list">Choose Source View</string>
+    <string name="source_view_option">Source View</string>
+    <string name="Select_RSS_Fedd">Choose RSS URL</string>
+    <string name="Select_Title_Query">Choose Title</string>
+
+    <!--Choose RSS Bottom Sheet Dialog-->
+    <string name="choose_rss">Choose source</string>
+    <string name="content"><![CDATA[
+        Notes:\n\n
+        1. Here you can choose the source of the feed\n
+        2. By default, the application will feed the latest news from VNExpress\n
+        3. Select the topic first, the application will display a list of RSS feeds according to the topic you have selected\n
+        4. If the RSS list does not appear, add it at the source tab and try again\n
+        5. Add a news to favorites, long tap the feed,
+        a selection list will appear and select "Add Favorites"
+        ]]>
+    </string>
+
+    <!--Context Menu at Home Fragment-->
+    <string name="add_fav_opt">Add Favorites</string>
+    <string name="del_fav_opt">Delete Favorites</string>
+    <string name="save_offline">Save Offline</string>
+
+    <!--===============================================================================================================================================================-->
+    <!--Source News Fragments-->
+
+    <!--Float Button-->
+    <string name="option">Selection</string>
+    <string name="delete_all_data">Wipe All</string>
+    <string name="AddRSS">Add RSS</string>
+
+    <!--Add RSS Bottom Sheet Dialog-->
+    <string name="AddSource">Add Source</string>
+    <string name="content1"><![CDATA[
+        Consult RSS sources:\n\n
+        1. VNExpress News:\n https://vnexpress.net/rss\n
+        2. Thanh Nien News:\n https://thanhnien.vn/rss.html\n
+        3. Tuoi tre News:\n https://tuoitre.vn/rss.htm\n
+        4. Tien Phong News:\n https://tienphong.vn/rss.tpo\n
+        5. 24h News:\n http://us1.24h.com.vn/guest/RSS/\n
+        6. Synthesize RSS feeds from trainghiemso.vn :\n
+        https://trainghiemso.vn/danh-sach-rss-feed/
+        ]]>
+    </string>
+    <string name="add_rss_db">Add</string>
+
+    <!--Update RSS Sheet Dialog-->
+    <string name="UpdateSource">Edit Source</string>
+    <string name="updateBtn">Update</string>
+
+    <!--Database Messeage-->
+    <string name="add_rss_success">Add success</string>
+    <string name="add_rss_fail">Add failure</string>
+    <string name="missingInFormation">Fill in all the information</string>
+    <string name="URLRequired">Enter RSS URL</string>
+    <string name="NameRequired">Enter Name For URL</string>
+    <string name="no_dataRSS_detect">No RSS data</string>
+    <string name="RSS_name">Name</string>
+    <string name="confirm_title">Confirm</string>
+    <string name="question_confirm">Are you sure you want to delete?</string>
+    <string name="confirm_del_all">Are you sure you want to delete all existing data?</string>
+    <string name="Delete_success">Deleted selected data</string>
+    <string name="update_database_success">Data update successful</string>
+    <string name="clear_all_rss_succes">Deleted RSS list</string>
+    <string name="Note01">No RSS data here</string>
+    <string name="Note02">Press \'Selection\' button to add source</string>
+    <string name="remove_forever">Delete all</string>
+    <string name="List_rss_title">List of current RSS sources</string>
+    <string name="messeage_delete2">You will have to restart the app if the list is cleared</string>
+
+    <!--===============================================================================================================================================================-->
+
+    <!--Material Dialog Button-->
+    <string name="yes_btn">Yes</string>
+    <string name="dont_del_me">No</string>
+
+    <!--===============================================================================================================================================================-->
+
+    <!--WebView TopBar-->
+    <string name="share">Share</string>
+    <string name="Open_Browser">Open Browser</string>
+    <string name="print">Print</string>
+
+    <!--===============================================================================================================================================================-->
+
+    <!--Share Function-->
+    <string name="mainBody">Share news</string>
+    <string name="ShareTitle">\"Share with: \"</string>
+    <string name="ShareErrorMsg">Sorry can not share</string>
+
+    <!--===============================================================================================================================================================-->
+
+    <!--Global Database Messeage-->
+    <string name="No_database">No data exists</string>
+    <string name="data_available">A record already exists</string>
+    <string name="favourite_add_success">Add to favorites</string>
+    <string name="del_favourite_success">Deleted this favorite</string>
+    <string name="Data_notavailable">This favorite does not exist</string>
+    <string name="delete_all_fav_success">Deleted favorites list</string>
+
+    <!--===============================================================================================================================================================-->
+    <!--Delete Favourite Alert Dialogs-->
+    <string name="Delete_favourite">Delete this favorite?</string>
+
+    <!--===============================================================================================================================================================-->
+
+    <!--No Favourite Record Available Messeage-->
+    <string name="FavouriteNote01">There are no favorites here</string>
+    <string name="FavouriteNote02">Back to home page to add favorites</string>
+
+    <!--===============================================================================================================================================================-->
+
+    <!--Offline Function Information to user-->
+    <string name="Notify_offline_information">" Necessary information"</string>
+    <string name="info1_offline">About the offline save function:</string>
+    <string name="offline_save_title">Information to you</string>
+    <string name="info2_offline">1. You need to enter the news to save</string>
+    <string name="info3_offline">2. This save function uses PDF format but for the save function you need to choose the right path:</string>
+    <string name="offline_path">Internal Storage/Download/RSS</string>
+    <string name="info4_offline">3. We can not help you to autosave the above link due to Google\'s privacy policy</string>
+    <string name="info5_offline">4. If the app is deleted, offline saves will remain in your storage</string>
+
+    <!--===============================================================================================================================================================-->
+
+    <!--Android 11+ Request Permission Messeage-->
+    <string name="request_info1">Hello Android 11+ users</string>
+    <string name="request_info2">Due to Android 11 and later privacy policy, offline save feature no longer can read internal storage contents</string>
+    <string name="request_info3">We need access to manage all content for the purpose of displaying offline content you have saved</string>
+    <string name="request_info4">No data will be used for any other purpose</string>
+    <string name="request_info5">Press the \'Authorize\' key to go to the app permission setting</string>
+    <string name="request_info6">You should restart the app after allowing the requested permission</string>
+    <string name="RequestBtnText">Authorize</string>
+
+    <!--Infomation about the content offline saved-->
+    <string name="question1">1. Where are all these records stored?</string>
+    <string name="question2">2. I saved to the right path but it is not showing here? </string>
+    <string name="anwser2">Double check that the record is in the correct path in the File manager application.
+    If so, try refreshing the page or restarting the app. Sorry for this experience</string>
+    <string name="question3">3. Can I save in another path? </string>
+    <string name="answer3"> It is entirely up to you, this offline entry only shows records at the above link.
+    To open records you need PDF readers like Office App, Adobe Reader or the default Google Drive PDF reader on your device</string>
+
+    <!--===============================================================================================================================================================-->
+
+    <!--Access Denied From User-->
+    <string name="permission_denied_by_user">Access denied, access device settings to grant permission</string>
+
+    <!--===============================================================================================================================================================-->
+
+    <!--Exit Application From User-->
+    <string name="ExitTitle">Exit the app</string>
+    <string name="Confirm_exit">Are you sure you want to escape?</string>
+
+    <!--===============================================================================================================================================================-->
+
+    <!--Spinner Title-->
+    <string-array name="title_list">
+        <item>Breaking News</item>
+        <item>World</item>
+        <item>News</item>
+        <item>Sport</item>
+        <item>Law</item>
+        <item>Education</item>
+        <item>Health</item>
+        <item>Life Style</item>
+        <item>Travel</item>
+        <item>Science</item>
+        <item>Other</item>
+    </string-array>
+
+    <!--===============================================================================================================================================================-->
+</resources>

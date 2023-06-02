@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".activity.SettingsActivity">
+
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:id="@+id/topbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fitsSystemWindows="true"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageButton
+            android:id="@+id/backbutton"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginBottom="20dp"
+            android:background="#00FFFFFF"
+            app:srcCompat="@drawable/ic_baseline_arrow_back_24"
+            tools:ignore="ContentDescription,SpeakableTextPresentCheck" />
+
+        <com.google.android.material.appbar.MaterialToolbar
+                android:id="@+id/topAppBar"
+                android:layout_marginStart="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="?attr/actionBarSize"
+                app:title="@string/settings">
+
+            </com.google.android.material.appbar.MaterialToolbar>
+
+    </com.google.android.material.appbar.AppBarLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="30dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/topbar"
+        app:layout_constraintVertical_bias="0.0">
+
+        <com.google.android.material.switchmaterial.SwitchMaterial
+            android:id="@+id/darkModeSwitch"
+            style="@style/settingsText"
+            android:drawableStart="@drawable/ic_dark_mode"
+            android:text="@string/NightMode" />
+
+
+        <TextView
+            android:id="@+id/language"
+            style="@style/viewParent.headerText.settingsTextIcon"
+            android:text="@string/language_choose"
+            app:drawableLeftCompat="@drawable/ic_languages" />
+
+        <TextView
+            android:id="@+id/aboutbtn"
+            style="@style/viewParent.headerText.settingsTextIcon"
+            android:text="@string/AboutUs"
+            app:drawableLeftCompat="@drawable/ic_edit_profile" />
+
+        <TextView
+            android:layout_marginTop="40dp"
+            android:id="@+id/Notelanguage"
+            style="@style/viewParent.headerText.settingsMiniTitle"
+            android:textAlignment="center"
+            android:text="@string/Messeage_after_change_language" />
+
+        <TextView
+            style="@style/viewParent.headerText.settingsMiniTitle"
+            android:text="@string/version"
+            android:textAlignment="center" />
+
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
